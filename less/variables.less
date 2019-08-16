@@ -24,3 +24,32 @@
 @border-real: #dee2e6;
 
 // Mobile var
+@phone: ~'(max-width: 500px)';
+
+@media @phone {
+    .top-img {
+        width: 100%;
+        border-radius: 10px;
+    } // closes .top-img
+
+        .sky {
+            display: none;
+        } // closes .sky
+
+            .launch { 
+                display: none;
+            } // closes .launch 
+
+            .space-images {
+                display: flex;
+                justify-content: center;
+            } // closes .space-images
+        
+                .blast {
+                    width: 100%;
+                } // closes .blast
+
+             
+} // closes media querie 
+
+

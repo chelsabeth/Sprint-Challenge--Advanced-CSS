@@ -1,3 +1,22 @@
+@media (max-width: 500px) {
+  .top-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .sky {
+    display: none;
+  }
+  .launch {
+    display: none;
+  }
+  .space-images {
+    display: flex;
+    justify-content: center;
+  }
+  .blast {
+    width: 100%;
+  }
+}
 .center {
   display: flex;
   justify-content: center;
@@ -259,6 +278,7 @@ button {
   font-size: 16px;
   height: 40px;
   border-radius: 10px;
+  font-family: 'Russo One', sans-serif;
 }
 button:hover {
   background: skyblue;
