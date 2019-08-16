@@ -33,15 +33,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-
+    Adaptive designs are not guaranteed to work on every platform they can only adapt so much. They are not specifically designed fir every device. Responsive design is the opposite. Responsive design is fluid, which means that the width and height are set specifically for a certain device and the whole layout is costumized for the best user experience possible for all platforms. 
 2. Describe what it means to be mobile first vs desktop first.
-
+    A mobile first means that the website was designed to perform best and look the best on a mobile layout rather than a desktop layout. Desktop first is the opposite. Desktop first is designed as a mobile layout as an after thought. Often time content has to be hidden and costumized for a mobile view to be possible in a Desktop first design.  
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+    62.5% is helpful when using rem because everything is easier to scale based of of that main percentage when trying to make a layout responsive. This also helps with users being able to change the font size manually on their device without interfering with the layout of the web application.
 4. How would you describe preprocessing to someone new to CSS?
-
+    I would say it is something you install onto your terminal that watches your file for any changes. It helps to save your changes and let you know if there are any errors right away. Also, it makes it easier to keep your code organized by nesting and using mixins, variables, and escapes so that you can change your code more easily without searching through 1000 lines of code when you want to change something. 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    My favorite concept in preprocessing is that you can nest your code together and keep everything in seperate files to better organize it. I love that I can just press a button and "zip" up my code to make it easier to read. So satisfying!
 
+    I have the most trouble with escapes. I don't grasp the concept of how they work yet. I know that it is easier because you can just put one command and have it costumized to your mobile view but I just can't see why it's necessary yet.
+    
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
