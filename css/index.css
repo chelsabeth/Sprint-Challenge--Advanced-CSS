@@ -1,7 +1,11 @@
-.nav {
+.center {
   display: flex;
   justify-content: center;
-  text-decoration: none;
+}
+.decorate {
+  margin-right: 20px;
+  font-size: 16px;
+  color: black;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -166,9 +170,17 @@ p {
   margin: 0 auto;
 }
 .navigation {
-  display: flex;
   justify-content: center;
+  display: flex;
+}
+.navigation nav {
+  margin-bottom: 2%;
+}
+.navigation a {
   text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  color: black;
 }
 footer {
   color: #22283B;
@@ -230,4 +242,13 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo h1 {
+  font-size: 40px;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
