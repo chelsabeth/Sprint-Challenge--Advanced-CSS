@@ -1,1 +1,22 @@
 // Mixins Here
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.decorate {
+    margin-right: 20px;
+    font-size: 16px;
+    color: black;
+}
+
+.button(@bgcolor: black, @width: 100px, @font-color: white) {
+    background: @bgcolor;
+    width: @width;
+    color: @font-color;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Russo One', sans-serif;
+}
